@@ -1,0 +1,194 @@
+html, body {
+    height: 100%;
+}
+
+header {
+    background: #FFC107;
+    color: #363F45;    
+}
+
+header .material-icons {
+    font-size: 52px;
+    color: white;
+}
+
+.work-container {
+    position: relative;
+    height: 100%;
+}
+.sections-toolbar {
+    max-width: 200px;
+    min-width: 200px;
+    background: #363F45;
+    color: white;
+    position: static;
+    z-index: 2;
+}
+
+.elements-bar {
+    width: 175px;
+    background: rgb(241, 241, 241);
+    box-shadow: 1px 2px 5px rgba(128, 128, 128, 0.46);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    transition: ease-out .35s;
+}
+
+.elements-bar img {
+    width: 150px;
+    margin: 10px;
+}
+
+.elements-bar img:hover {
+    box-shadow: 1px 2px 9px rgba(54, 51, 51, 0.93);
+    cursor: pointer;
+}
+
+.landing-page-container {
+    background: rgb(247, 247, 247);
+    overflow: auto;
+    position: relative;
+}
+
+.landing-name {
+    font-size: 27px;
+    color: #363f45;
+}
+
+.landing {
+    width: 740px;
+    min-height: 100%;
+    background: white;
+    box-shadow: 0px 1px 19px rgba(54, 51, 51, 0.1);
+}
+
+li {
+    list-style: none;
+    padding: 9px;
+}
+
+li:hover {
+    background: rgb(255, 193, 7);
+    color: #363f45;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.landing-backdrop, .app-backdrop {
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 63, 69, 0.35);
+    position: absolute;
+    left: 0;
+    transition: ease-in-out 1s;
+    display: none;
+}
+
+.app-backdrop {
+    top: 0;
+    z-index: 20;
+}
+
+.modal-landing-name {
+    position: absolute;
+    width: 450px;
+    min-height: 200px;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: white;
+    display: none;
+    z-index: 21;
+}
+
+/*spacing*/
+.p-100 {
+    padding: 0 100px;
+}
+
+/*components*/
+.components {
+    width: 760px;
+    display: none;
+}
+
+
+/*header*/
+
+.landing-header {
+    min-height: 300px;
+    background-size: cover !important;
+}
+
+.landing-header.left {
+    background: url(../assets/nature.png) no-repeat center;
+}
+
+.landing-header.right {
+    background: url(../assets/abstract.png) no-repeat center;
+}
+
+.landing-header .header-line {
+    background: rgba(30, 44, 75, 0.35);
+    width: 100%;
+    padding: 25px;
+    font-size: 42px;
+    color: #ffebc6;
+}
+
+/*about*/
+
+.landing-about {
+    background: white;
+}
+
+.about-image {
+    background-size: cover !important;
+    height: 300px;
+}
+
+.about-image.left {
+    background: url("../assets/pen.png")
+}
+
+.about-image.right {
+    background: url("../assets/child.png")
+}
+
+/*image*/
+
+.landing-img img {
+    width: 100%;
+}
+
+/*steps*/
+
+.landing-steps {
+    background: white;
+}
+
+.landing-steps .material-icons {
+    font-size: 42px;
+    color: #6c6c6c;
+}
+
+/*social*/
+
+.landing-social img {
+    width:34px;
+    margin: 10px;
+}
+
+
+/*for all component */
+
+.up {
+    text-transform: uppercase;
+}
+
+.shadow {
+    box-shadow: 1px 2px 5px rgba(128, 128, 128, 0.46);
+}
